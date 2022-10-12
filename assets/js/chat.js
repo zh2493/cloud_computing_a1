@@ -78,12 +78,12 @@ $(document).ready(function() {
             }
           }
         } else {
-          insertResponseMessage('Oops, something went wrong. Please try again.');
+          insertResponseMessage('I’m still under development. Please come back later.');
         }
       })
       .catch((error) => {
         console.log('an error occurred', error);
-        insertResponseMessage('Oops, something went wrong. Please try again.');
+        insertResponseMessage('I’m still under development. Please come back later.');
       });
   }
 
